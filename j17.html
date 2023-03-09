@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>j17</title>
+    <style>
+        input{
+            text-align:right;
+        }
+       
+    </style>
+</head>
+<body>
+    <div style="text-align:center">
+        <h3><em>Arthmatic Calculator</em></h3>
+        <input type="text" id="firstnum" placeholder="Enter First Number" /><br /><br />
+        <input type="text" id="secondnum" placeholder="Enter Second Number" /><br /><br />
+        <input type="text" id="result" readonly /><br /><br />
+        <button onclick="result.value = parseFloat(firstnum.value) + parseFloat(secondnum.value)">+</button>
+        <button onclick="result.value = parseFloat(firstnum.value) - parseFloat(secondnum.value)">-</button>
+        <button onclick="result.value = parseFloat(firstnum.value) * parseFloat(secondnum.value)">*</button>
+        <button onclick="result.value = parseFloat(firstnum.value) % parseFloat(secondnum.value)">%</button>
+        <button onclick="result.value = parseFloat(firstnum.value) / parseFloat(secondnum.value)">/</button>
+        <button onclick="result.value = parseFloat(firstnum.value) ** parseFloat(secondnum.value)">^</button>
+    </div>
+
+</body>
+</html>
